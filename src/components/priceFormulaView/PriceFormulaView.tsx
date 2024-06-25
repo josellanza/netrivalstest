@@ -32,6 +32,7 @@ const PriceFormulaView = () => {
   
   return (
     <div>
+      <p className={styles.title}>{`showing 50 of `+length+` products`}</p>
       {producst?.map((product: Product) =>
       <div className={styles.mainContainer}>
         <ProductDetails product={product} />

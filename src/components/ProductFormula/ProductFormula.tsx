@@ -15,8 +15,6 @@ const ProductFormula = (props: ProductFormulaProps) => {
   const[newValue, setNewValue] = useState<string>()
   const[isValid, setIsvalid] = useState<boolean>(true)
   
-  
-  
   useEffect(() => {
     setNewValue(product.formula)
   },[product.formula])

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import data from '../config/data.json'
 
 /* Here should be the GET request to the BE including all the data and the pagination*/

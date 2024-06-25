@@ -36,7 +36,7 @@ const ProductDetails = (props:ProductDetailsProps) => {
             <img src="https://cdn.pixabay.com/photo/2017/04/03/15/52/mobile-phone-2198770_1280.png" width="150" height="200" />
           </div>
           <div className={styles.price}>
-            {value ? applyFormula(product.price, product.formula) : product.price}€
+            {value || product.formula ? applyFormula(product.price, product.formula) : product.price}€
           </div>
         </div>
       </div>
