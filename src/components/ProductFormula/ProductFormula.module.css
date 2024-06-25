@@ -1,0 +1,89 @@
+.constainer {
+  margin: 20px;
+  display: flex;
+  border-radius: 10px;
+  flex-flow: column;
+  border: 1px solid oldlace;
+  box-shadow: 2px 2px 12px -1px lightsteelblue;
+  padding: 50px
+}
+
+.price {
+  margin: auto;
+  color: #8f8f8f;
+}
+
+.input {
+  background-color: transparent;
+  border: 0px solid;
+  font-size: 2vh;
+  font-weight: bolder;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.input:focus {
+  border: none;
+}
+
+.input::placeholder {
+  color: #c4c4c4;
+}
+
+.input:placeholder-shown {
+  font-style: italic;
+  color: #d9d7d7;
+}
+
+.input:focus::placeholder {
+  color: transparent;
+}
+
+.SubmitBtn,
+.submitBtnDisabled {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  background-color: transparent;
+  border: 1px solid #919191;
+  border-radius: 8px;
+  font-size: 100%;
+}
+
+.inputContainer {
+  margin: 10px 0;
+}
+
+.submitBtnDisabled:hover {
+  cursor: auto;
+}
+
+.SubmitBtn,
+.submitBtnDisabled {
+  width: auto;
+}
+
+.submitBtnsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SubmitBtn:hover {
+  background-color: #cfcfcf;
+  cursor: pointer
+}
+
+.SubmitBtn:focus {
+  background-color: #cfcfcf;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+p {
+  color: red;
+  font-size: small;
+}

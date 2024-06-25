@@ -1,0 +1,27 @@
+.disable {
+  pointer-events: none;
+  margin: 20px 0;
+}
+
+.item {
+  padding: 20px 50px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.item:hover {
+  background-color: #0085f230;
+}
+
+.itemDisabled {
+  background-color: #ebebeb;
+  padding: 20px 50px;
+}

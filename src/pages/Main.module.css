@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.nav {
+  box-shadow: 2px 3px 10px lightblue;
+  padding: 40px 0px;
+}
+
+.productListContainer {
+  min-width: -webkit-fill-available;
+}

@@ -1,0 +1,15 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.image {
+  margin: 1vh;
+}
+
+.price {
+  font-size: large;
+  color: #919191;
+  font-weight: bold;
+}
